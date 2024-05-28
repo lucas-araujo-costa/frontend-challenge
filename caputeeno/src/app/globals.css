@@ -2,10 +2,15 @@
   --border-radius: 12px;
   --logo-color: #5d5d6d;
 
+  --bg-primary: #f0f0f5;
   --bg-secondary: #f3f5f6;
 
   --text-dark: #737380;
+  --text-dark-2: #41414d;
   --delete-color: #de3838;
+
+  --shapes: #dce2e6;
+  --shapes-dark: #09090a;
 
   --orange-low: #ffa585;
 }
