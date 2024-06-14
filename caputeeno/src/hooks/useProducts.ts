@@ -1,8 +1,8 @@
-import { ProductsFetchResponse } from '@/types/products-response'
+import { ProductsFetchResponse } from '@/types/ProductsResponse'
 import { useQuery } from '@tanstack/react-query'
 import axios, { AxiosPromise } from 'axios'
 import { useFilter } from './useFilter'
-import { mountQuery } from '@/utils/graphiql-filters'
+import { mountQuery } from '@/utils/graphiqlFilters'
 import { useDeferredValue } from 'react'
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL as string
